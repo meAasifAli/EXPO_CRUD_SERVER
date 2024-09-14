@@ -4,7 +4,7 @@ import cors from 'cors'
 import { v2 as cloudinary } from 'cloudinary'
 
 
-import userRoutes from '../server/routes/user.route.js'
+import userRoutes from './routes/user.route.js'
 import connectMongoDB from './db/index.js'
 
 
